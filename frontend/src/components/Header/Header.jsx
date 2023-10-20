@@ -2,6 +2,7 @@ import {useEffect, useRef} from 'react'
 import logo from "../../assets/images/logo.png"
 import userImg from "../../assets/images/avatar-icon.png"
 import { NavLink, Link } from 'react-router-dom'
+import { BiMenu } from "react-icons/bi"
 
 const navLinks = [
   {
@@ -67,6 +68,10 @@ const Header = () => {
               <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center 
               justify-center rounded-[50px]">Login</button>
             </Link>
+
+            <span className="md:hidden">
+              <BiMenu className='w-6 h-6 cursor-pointer' />
+            </span>
           </div>
 
         </div>
