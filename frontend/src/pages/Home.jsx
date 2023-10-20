@@ -19,6 +19,8 @@ const Home = () => {
                     quaerat magni dolorum quia illum pariatur facere, cumque, facilis quibusdam ducimus quod 
                     ipsam culpa, cum earum ex exercitationem nesciunt.
                   </p>
+
+                  <button className="btn">Request an Appointment</button>
                 </div>
               </div>
 
