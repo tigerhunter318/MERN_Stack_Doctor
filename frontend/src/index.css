@@ -26,3 +26,13 @@
         @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px]
     }
 }
+
+@media only screen and (max-width:1024px) {
+    .container{
+        @apply w-full
+    }
+
+    section {
+        @apply py-[35px]
+    }
+}
