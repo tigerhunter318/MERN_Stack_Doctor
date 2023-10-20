@@ -1,5 +1,6 @@
 import {useEffect, useRef} from 'react'
 import logo from "../../assets/images/logo.png"
+import userImg from "../../assets/images/avatar-icon.png"
 import { NavLink, Link } from 'react-router-dom'
 
 const navLinks = [
@@ -51,6 +52,18 @@ const Header = () => {
                 ))}
             </ul>
           </div>
+
+          {/* =================== nav right ==================== */}
+          <div className="flex items-center gap-4">
+            <div>
+              <Link to='/'>
+                <figure className="w-[35px] h-[35px] rounded-full">
+                  <img src={userImg} className="w-full rounded-full" alt="" />
+                </figure>
+              </Link>
+            </div>
+          </div>
+
         </div>
       </div>
     </header>
