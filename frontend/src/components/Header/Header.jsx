@@ -1,10 +1,23 @@
-import React from 'react'
+import {useEffect, useRef} from 'react'
 import logo from "../../assets/images/logo.png"
+import {navLinks, Link} from 'react-router-dom'
 
 const navLinks = [
   {
     path: '/home',
     display: 'Home'
+  },
+  {
+    path: '/doctors',
+    display: 'Find a doctor'
+  },
+  {
+    path: '/services',
+    display: 'Services'
+  },
+  {
+    path: '/contact',
+    display: 'Contact'
   },
 ]
 
