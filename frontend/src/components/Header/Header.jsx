@@ -31,10 +31,18 @@ const Header = () => {
   const handleStickyHeader = () => {
     window.addEventListener('scroll', () => {
       if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
-        headerRef.cu
+        headerRef.current.classList.add('sticky__header')
+      }else{
+        headerRef.current.classList.remove('sticky__header')
       }
     })
   }
+
+  useEffect(() => {
+    handleStickyHeader()
+
+    return () => window.removeEventListener('scroll', handleStickyHeader)
+  })
 
   return (
     <header  className="header flex items-center">
