@@ -35,10 +35,31 @@ const Home = () => {
                       <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
                       <p className='text__para'>Years of Experience</p>
                     </div>
+
+                    <div>
+                      <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] 
+                        font-[700] text-headingColor ">
+                        15+
+                      </h2>
+                      <span className="w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]"></span>
+                      <p className='text__para'>Clinic Location</p>
+                    </div>
+
+                    <div>
+                      <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] 
+                        font-[700] text-headingColor ">
+                        100%
+                      </h2>
+                      <span className="w-[100px] h-2 bg-blue-500 rounded-full block mt-[-14px]"></span>
+                      <p className='text__para'>Patient Satisfaction</p>
+                    </div>
+
+                    
+
+
                  </div>
               </div>
-
-
+ 
 
             </div>
           </div>
