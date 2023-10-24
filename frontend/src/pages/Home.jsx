@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <>
       {/* =================== hero section ==================== */}
-      
         <section className="hero__section pt-[60px] 2xl:h-[800px]">
           <div className="container">
             <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between">
@@ -77,7 +76,16 @@ const Home = () => {
             </div>
           </div>
         </section>
-      
+      {/* =================== hero section end ==================== */}
+
+
+      <section>
+        <div className="container">
+          <div className="lg:w-[470px] mx-auto">
+            <h2 className="heading text-center">Providing the best medical services</h2>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
