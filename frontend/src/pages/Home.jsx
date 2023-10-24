@@ -3,6 +3,8 @@ import React from 'react'
 import heroImg01 from "../assets/images/hero-img01.png"
 import heroImg02 from "../assets/images/hero-img02.png"
 import heroImg03 from "../assets/images/hero-img03.png"
+import icon01 from "../assets/images/icon01.png"
+
 
 
 const Home = () => {
@@ -83,7 +85,19 @@ const Home = () => {
         <div className="container">
           <div className="lg:w-[470px] mx-auto">
             <h2 className="heading text-center">Providing the best medical services</h2>
+            <p className="text__para text-center">World-class care for everyone. Our health System offers unmatched,
+               expert health care. </p>
           </div>
+
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
+            <div className="py-[30px] px-5">
+              <div className="flex items-center justify-center">
+                <img src={icon01} alt="" />
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </>
