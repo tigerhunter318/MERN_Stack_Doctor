@@ -32,6 +32,8 @@ const Home = () => {
                         font-[700] text-headingColor ">
                         30+
                       </h2>
+                      <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
+                      <p className='text__para'>Years of Experience</p>
                     </div>
                  </div>
               </div>
