@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'react-router-dom'
+import {Link} from 'react-router-dom'
+import { BsArrowRight } from "react-icons/bs";
 
 import heroImg01 from "../assets/images/hero-img01.png"
 import heroImg02 from "../assets/images/hero-img02.png"
@@ -105,8 +106,11 @@ const Home = () => {
                   From the lab to the clinic
                 </p>
 
-                <Link to='/doctors' className="w-[">
-
+                <Link 
+                  to='/doctors' 
+                  className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] 
+                  mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none">
+                  <BsArrowRight className=" group-hover: text-white w-12 h-5" />
                 </Link>
               </div>
             </div>
