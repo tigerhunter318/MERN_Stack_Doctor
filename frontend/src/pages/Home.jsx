@@ -6,6 +6,9 @@ import heroImg01 from "../assets/images/hero-img01.png"
 import heroImg02 from "../assets/images/hero-img02.png"
 import heroImg03 from "../assets/images/hero-img03.png"
 import icon01 from "../assets/images/icon01.png"
+import icon02 from "../assets/images/icon02.png"
+import icon03 from "../assets/images/icon03.png"
+
 
 
 
@@ -115,13 +118,11 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-
-
             
 
             <div className="py-[30px] px-5">
               <div className="flex items-center justify-center">
-                <img src={icon01} alt="" />
+                <img src={icon02} alt="" />
               </div>
 
               <div className="mt-[30px]">
@@ -143,11 +144,11 @@ const Home = () => {
 
             <div className="py-[30px] px-5">
               <div className="flex items-center justify-center">
-                <img src={icon01} alt="" />
+                <img src={icon03} alt="" />
               </div>
 
               <div className="mt-[30px]">
-                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Find a Doctor</h2>
+                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Book Appointment</h2>
                 <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
                   World-class care for everyone. Our health System offers unmatched, expert health care. 
                   From the lab to the clinic
