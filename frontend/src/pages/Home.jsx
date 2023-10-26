@@ -9,6 +9,7 @@ import icon01 from "../assets/images/icon01.png"
 import icon02 from "../assets/images/icon02.png"
 import icon03 from "../assets/images/icon03.png"
 import featureImg from "../assets/images/feature-img.png"
+import videoIcon from "../assets/images/video-icon.png"
 
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
@@ -224,8 +225,20 @@ const Home = () => {
                   md:bottom-[100px] md:left-5 z-20 p-2 pb-3 lg:pt-4 lg:px-4 lg:pb-[26px] rounded-[10px]">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-[6px] lg:gap-3">
-                        <p className="text-[10px] leading-[10px] "></p>
+                        <p className="text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 
+                          text-headingColor font-[600]">
+                            Tue, 24
+                        </p>
+
+                        <p className="text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 
+                          text-textColor font-[400]">
+                            10:00AM
+                          </p>
                       </div>
+                      <span className="w-5 h-5 lg:w-[34px] lg:h-[34px] flex items-center justify-center
+                        bg-yellowColor rounded py-1 px-[6px] lg:py-3 lg:px-[9px]">
+                          <img src={videoIcon} alt="" />
+                        </span>
                     </div>
                 </div>
               </div>
