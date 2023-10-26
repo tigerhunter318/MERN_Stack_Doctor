@@ -18,7 +18,9 @@ const About = () => {
             </div>
 
             {/*================= about content =============*/}
-            
+            <div className="w-full lg:w-1/2 xl:w-[670px] order-1 lg:order-2">
+                <h2 className="heading">Proud to be one of the nations best</h2>
+            </div>
 
 
         </div>
