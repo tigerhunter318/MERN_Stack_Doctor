@@ -193,7 +193,14 @@ const Home = () => {
       {/* =================== feature section ==================== */}
         <section>
           <div className="container">
-            
+            <div className="flex items-center justify-between flex-col lg:flex-row">
+
+              {/* =================== feature section end ==================== */}
+              <div className="xl:w-[670px]">
+                <h2 className="heading">Get Virtual treatment <br /> anytime.</h2>
+
+              </div>
+            </div>
           </div>
         </section>
       {/* =================== feature section end ==================== */}
