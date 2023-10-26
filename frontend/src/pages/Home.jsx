@@ -190,6 +190,17 @@ const Home = () => {
 
 
 
+      {/* =================== feature section ==================== */}
+        <section>
+          <div className="container">
+            
+          </div>
+        </section>
+      {/* =================== feature section end ==================== */}
+
+
+
+
     </>
   )
 }
