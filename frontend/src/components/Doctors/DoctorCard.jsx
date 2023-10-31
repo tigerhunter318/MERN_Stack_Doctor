@@ -1,6 +1,9 @@
 import React from 'react'
 
-const DoctorCard = () => {
+const DoctorCard = ({doctor}) => {
+
+    const {} = doctor
+
   return (
     <div>DoctorCard</div>
   )
