@@ -29,8 +29,19 @@ const DoctorCard = ({ doctor }) => {
                 lg:leading-7  font-semibold text-headingColor">
                     <img src={starIcon} alt="" /> {avgRating}
                 </span>
+                <span className="text-[14px] leading-6 lg:text-[16px]
+                lg:leading-7 font-[400] text-textColor">
+                    ({totalRating})
+                </span>
             </div>
         </div>
+
+        <div className="mt-[18px] lg:mt-5 flex items-center justify-between">
+            <div>
+                <h3></h3>
+            </div>
+        </div>
+
     </div>
   )
 }
