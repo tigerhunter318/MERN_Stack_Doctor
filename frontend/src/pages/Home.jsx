@@ -14,6 +14,7 @@ import avatarIcon from "../assets/images/avatar-icon.png"
 
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
+import DoctorList from '../components/Doctors/DoctorList';
 
 
 
@@ -272,6 +273,8 @@ const Home = () => {
               World-class care for everyone. Our health System offers unmatched, expert health care.
             </p>
           </div>
+
+          <DoctorList />
         </div>
       </section>
       {/* =================== our great doctors end ==================== */}
