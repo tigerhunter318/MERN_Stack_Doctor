@@ -1,4 +1,4 @@
-import { doctors } from '../../assets/data/doctors '
+import { doctors } from '../../assets/data/doctors'
 import DoctorCard from './DoctorCard'
 
 const DoctorList = () => {
