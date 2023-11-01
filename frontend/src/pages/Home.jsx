@@ -17,6 +17,7 @@ import faqImg from "../assets/images/faq-img.png"
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
 import DoctorList from '../components/Doctors/DoctorList';
+import FaqList from '../components/Faq/FaqList';
 
 
 
@@ -296,7 +297,11 @@ const Home = () => {
               </div>
 
               <div className="w-full md:w-1/2">
-                <h2>Most questions by our beloved patients</h2>
+                <h2 className="heading">
+                  Most questions by our beloved patients
+                </h2>
+
+                <FaqList />
               </div>
             </div>
           </div>
