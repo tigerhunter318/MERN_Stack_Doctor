@@ -11,6 +11,8 @@ import icon03 from "../assets/images/icon03.png"
 import featureImg from "../assets/images/feature-img.png"
 import videoIcon from "../assets/images/video-icon.png"
 import avatarIcon from "../assets/images/avatar-icon.png"
+import faqImg from "../assets/images/faq-img.png"
+
 
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
@@ -195,6 +197,7 @@ const Home = () => {
 
 
 
+
       {/* =================== feature section ==================== */}
         <section>
           <div className="container">
@@ -264,24 +267,37 @@ const Home = () => {
         </section>
       {/* =================== feature section end ==================== */}
 
-      {/* =================== our great doctors ==================== */}
-      <section>
-        <div className="container">
-          <div className="xl:w-[470px] mx-auto ">
-            <h2 className="heading text-center">Our great doctors</h2>
-            <p className="text__para text-center">
-              World-class care for everyone. Our health System offers unmatched, expert health care.
-            </p>
-          </div>
 
-          <DoctorList />
-        </div>
-      </section>
+
+
+      {/* =================== our great doctors ==================== */}
+        <section>
+          <div className="container">
+            <div className="xl:w-[470px] mx-auto ">
+              <h2 className="heading text-center">Our great doctors</h2>
+              <p className="text__para text-center">
+                World-class care for everyone. Our health System offers unmatched, expert health care.
+              </p>
+            </div>
+
+            <DoctorList />
+          </div>
+        </section>
       {/* =================== our great doctors end ==================== */}
 
 
 
-
+      {/* =================== faq section ==================== */}
+        <section>
+          <div className="container">
+            <div className="flex justify-between gap-[50px] lg:gap-0">
+              <div className="w-1/2 hidden md:block">
+                <img src={faqImg} alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      {/* =================== faq section end ==================== */}
 
 
 
